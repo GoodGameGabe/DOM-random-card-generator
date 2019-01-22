@@ -1,0 +1,56 @@
+body{
+    background-color: green;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card{
+    background-color: white;
+    height: 350px;
+    width:  250px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    display: flex;
+    align-content: space-between;
+    justify-content:space-between;
+}
+
+.symbol{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    font-size: 45px;
+    padding: 10px 0px 0px 10px;
+}
+
+
+.number{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    padding-bottom: 50px;
+}
+
+#bottom{
+    transform: rotate(180deg);
+}
+
+.spade{
+    color: black;
+}
+
+.club{
+    color: black;
+}
+
+.diamond{
+    color: red;
+}
+
+.heart{
+    color: red;
+}
